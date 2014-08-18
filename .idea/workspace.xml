@@ -403,6 +403,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -475,17 +476,20 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c09dc807-8c9a-4504-8247-d6d744991360" name="Default" comment="" />
       <created>1408372034198</created>
       <updated>1408372034198</updated>
-      <workItem from="1408372034898" duration="2389000" />
+      <workItem from="1408372034898" duration="2987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2389000" />
+    <option name="totallyTimeSpent" value="2987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-335" y="-1178" width="1920" height="1178" extended-state="6" />
