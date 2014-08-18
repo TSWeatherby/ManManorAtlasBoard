@@ -15,9 +15,9 @@
 
     "calendar-holidays" : {
        "interval" : 60000,
-       "calendarUrl" : "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+       "calendarUrl" : "https://www.google.com/calendar/ical/1tmefqeku4ssvsn7hbshvg8ovc%40group.calendar.google.com/private-e5cd3d0bb702956d400e887601896d1f/basic.ics",
        "maxEntries" : 9,
-       "widgetTitle" : "Upcoming US Holidays"
+       "widgetTitle" : "Events"
      },
 
      "issue-types" : {

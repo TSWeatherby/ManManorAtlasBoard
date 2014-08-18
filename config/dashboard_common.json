@@ -3,7 +3,7 @@
 
     "calendar-holidays" : {
       "interval": 60000,
-      "calendarUrl" : "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+      "calendarUrl" : "webcal://p21-calendarws.icloud.com/ca/subscribe/1/ez2-3_lpJuQxLTv7rnD5MvQCygcJKtdE0LWyZdb7Q-4RJ4xQAoURCpMUDyW7cAaoUFDvnNJZDZxd1bGTvsPuRFlCww7n-nxVFII-xxEhSOQ.ics",
        "maxEntries" : 9,
        "widgetTitle" : "Upcoming US Holidays"
      },

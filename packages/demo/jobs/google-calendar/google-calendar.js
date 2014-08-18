@@ -7,14 +7,14 @@ module.exports = function(config, dependencies, job_callback) {
     var formatDate = function(date) {
         var d = date.getDate();
         var m = date.getMonth()+1;
-        return '' + (m<=9?'0'+m:m) + '/' + (d<=9?'0'+d:d);
+        return '' + (d<=9?'0'+d:d) + '/' + (m<=9?'0'+m:m);
     };
 
     ical.fromURL(config.calendarUrl, {}, function(err, data){
 
         if (err){
             logger.error(err);
-            job_callback("error loading callendar");
+            job_callback("error loading calendar");
             return;
         }
 
