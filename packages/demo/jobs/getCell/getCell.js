@@ -9,11 +9,14 @@ module.exports = function(config, dependencies, job_callback) {
             my_sheet.getInfo(function (err, sheet_info) {
                 console.log(sheet_info.title + ' is loaded');
 
-                sheet_info.worksheets[0].getRows({ start: 1, num: 1} , function(err, rows){
-                    console.log( "inside " + rows[0][0] );
+                sheet_info.worksheets[0].getRows(function(err, rows){ 
+                    console.log(rows[0].title);
+                    out = rows[0].title;
+                    console.log("Out:" + out)
+                    job_callback(null, {returnValue: out, title: config.widgetTitle});
                 });
             });
         });
 
-        job_callback(null, {output: out, title: config.widgetTitle});
+        
 }

@@ -10,7 +10,6 @@ widget = {
         else{
             $('.header', el).html("You forgot a Title");
         }
-
         $('.content', el).html(data.returnValue);
     }
 };
