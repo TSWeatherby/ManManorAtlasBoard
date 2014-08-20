@@ -4,6 +4,11 @@
       "customJS" : ["jquery.peity.js"],
       "widgets" : [
           {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedTom"},
+          {"row" : 1, "col" : 2, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedRob"},
+          {"row" : 1, "col" : 3, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedYutao"},
+          {"row" : 1, "col" : 4, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedJohn"},
+          {"row" : 1, "col" : 5, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedJacob"},
+          {"row" : 1, "col" : 6, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "avgCost"},
           {"row" : 1, "col" : 5, "width" : 2, "height" : 4, "widget" : "calendar",     "job" : "google-calendar",     "config": "calendar"}
       ]
   },
@@ -18,7 +23,34 @@
      },
      "owedTom" : {
         "interval" : 5000,
+        "row": 0,
         "widgetTitle" : "Tom Owes"
+      },
+     "owedRob" : {
+        "interval" : 5000,
+        "row": 1,
+        "widgetTitle" : "Rob Owes"
+      },
+     "owedYutao" : {
+        "interval" : 5000,
+        "row": 2,
+        "widgetTitle" : "Yutao Owes"
+      },
+     "owedJohn" : {
+        "interval" : 5000,
+        "row": 3,
+        "widgetTitle" : "John Owes"
+      },
+     "owedJacob" : {
+        "interval" : 5000,
+        "row": 4,
+        "widgetTitle" : "Jacob Owes"
+      },
+     "avgCost" : {
+        "interval" : 5000,
+        "row": 5,
+        "widgetTitle" : "Average Cost"
       }
+
   }
 }
