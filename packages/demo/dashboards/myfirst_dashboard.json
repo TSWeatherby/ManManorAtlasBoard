@@ -9,7 +9,7 @@
           {"row" : 1, "col" : 4, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedJohn"},
           {"row" : 1, "col" : 5, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedJacob"},
           {"row" : 1, "col" : 6, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "avgCost"},
-          {"row" : 1, "col" : 5, "width" : 2, "height" : 4, "widget" : "calendar",     "job" : "google-calendar",     "config": "calendar"}
+          {"row" : 2, "col" : 1, "width" : 2, "height" : 3, "widget" : "calendar",     "job" : "google-calendar",     "config": "calendar"}
       ]
   },
 
