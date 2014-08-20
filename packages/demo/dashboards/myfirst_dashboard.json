@@ -22,32 +22,32 @@
        "widgetTitle" : "Events"
      },
      "owedTom" : {
-        "interval" : 5000,
+        "interval" : 60000,
         "row": 0,
         "widgetTitle" : "Tom Owes"
       },
      "owedRob" : {
-        "interval" : 5000,
+        "interval" : 60000,
         "row": 1,
         "widgetTitle" : "Rob Owes"
       },
      "owedYutao" : {
-        "interval" : 5000,
+        "interval" : 60000,
         "row": 2,
         "widgetTitle" : "Yutao Owes"
       },
      "owedJohn" : {
-        "interval" : 5000,
+        "interval" : 60000,
         "row": 3,
         "widgetTitle" : "John Owes"
       },
      "owedJacob" : {
-        "interval" : 5000,
+        "interval" : 60000,
         "row": 4,
         "widgetTitle" : "Jacob Owes"
       },
      "avgCost" : {
-        "interval" : 5000,
+        "interval" : 60000,
         "row": 5,
         "widgetTitle" : "Average Cost"
       }
