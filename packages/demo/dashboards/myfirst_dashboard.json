@@ -10,12 +10,22 @@
           {"row" : 1, "col" : 5, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "owedJacob"},
           {"row" : 1, "col" : 6, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "avgCost"},
           {"row" : 2, "col" : 3, "width" : 4, "height" : 2, "widget" : "mealDisplay",    "job" : "getCellChores",         "config": "test"},
-          {"row" : 2, "col" : 1, "width" : 2, "height" : 3, "widget" : "calendar",     "job" : "google-calendar",     "config": "calendar"}
+          {"row" : 2, "col" : 1, "width" : 2, "height" : 3, "widget" : "calendar",     "job" : "google-calendar",     "config": "calendar"},
+          {"row" : 4, "col" : 4, "width" : 2, "height" : 1, "widget" : "clockManManor",     "job" : "clock",     "config": "clock"}
       ]
   },
 
   "config" : {
-
+    "clock":{
+            "interval":1000,
+            "stfuOnly":false,
+            "stfuHours":[
+                {
+                    "start":1730,
+                    "end":800
+                }
+            ]
+        },
     "calendar" : {
        "interval" : 60000,
        "calendarUrl" : "https://www.google.com/calendar/ical/1tmefqeku4ssvsn7hbshvg8ovc%40group.calendar.google.com/private-e5cd3d0bb702956d400e887601896d1f/basic.ics",

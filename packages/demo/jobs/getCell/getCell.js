@@ -1,5 +1,6 @@
 module.exports = function(config, dependencies, job_callback) {
     var GoogleSpreadsheet = require("google-spreadsheet");
+    var math = require('mathjs');
 
     var my_sheet = new GoogleSpreadsheet('1MFG5jYlhe4AIXjb5haeye0mW_kpZ3XUCxqEBfKzxp_w');
 
@@ -11,7 +12,11 @@ module.exports = function(config, dependencies, job_callback) {
 
                 sheet_info.worksheets[0].getRows(function(err, rows){ 
                     out = rows[config.row].title;
-                    job_callback(null, {returnValue: out, title: config.widgetTitle});
+                    var out = out.toString();
+                    var blah = 3.14;
+                    blah = parseFloat(out);
+                    blah = math.round(blah,2);
+                    job_callback(null, {returnValue: blah, title: config.widgetTitle});
                 });
             });
         });

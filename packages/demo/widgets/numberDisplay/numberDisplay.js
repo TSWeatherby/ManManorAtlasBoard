@@ -10,6 +10,11 @@ widget = {
         else{
             $('.header', el).html("You forgot a Title");
         }
-        $('.content', el).html(data.returnValue);
+        if(data.returnValue>0){
+           $('.content', el).html("£ " + data.returnValue); 
+        }
+        else{
+            $('.content', el).html("-£ " + -1*data.returnValue);
+        }
     }
 };
