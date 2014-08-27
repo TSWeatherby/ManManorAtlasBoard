@@ -10,6 +10,7 @@ widget = {
         else{
             $('.header', el).html("You forgot a Title");
         }
-        $('.content', el).html(data.meal);
+        $('.content', el).html("Today " + data.cook + " is cooking " + data.meal + " and " + data.clean + " is cleaning. We need to get " + data.extras + ". <br> <br> Tomorrow " + data.cookTomorrow + " is cooking " + data.mealTomorrow + " and " + data.cleanTomorrow + " is cleaning. We need to get " + data.extrasTomorrow + ".\n");
+        
     }
 };
