@@ -11,7 +11,7 @@
           {"row" : 1, "col" : 6, "width" : 1, "height" : 1, "widget" : "numberDisplay",    "job" : "getCell",         "config": "avgCost"},
           {"row" : 2, "col" : 3, "width" : 4, "height" : 2, "widget" : "mealDisplay",    "job" : "getCellChores",         "config": "test"},
           {"row" : 2, "col" : 1, "width" : 2, "height" : 3, "widget" : "calendar",     "job" : "google-calendar",     "config": "calendar"},
-          {"row" : 4, "col" : 4, "width" : 2, "height" : 1, "widget" : "clockManManor",     "job" : "clock",     "config": "clock"}
+          {"row" : 4, "col" : 4, "width" : 3, "height" : 1, "widget" : "clockManManor",     "job" : "clock",     "config": "clock"}
       ]
   },
 
@@ -63,8 +63,8 @@
         "widgetTitle" : "Average Cost"
       },
      "test" : {
-        "interval" : 10000,
-        "widgetTitle" : "test",
+        "interval" : 360000,
+        "widgetTitle" : "Meal Display",
         "request": "meal"
       }
 
