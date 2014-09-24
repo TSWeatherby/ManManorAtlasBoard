@@ -61,10 +61,10 @@ module.exports = function(config, dependencies, job_callback) {
             if (counter < maxEntries) {
                 counter++;
                 if(event.start.getDate()==event.end.getDate() && event.start.getFullYear()==event.end.getFullYear() && event.start.getMonth()==event.end.getMonth()){
-                    result.push({startDate: formatDate(event.start), endDate: formatDateEnd(event.end), summary: event.summary});
+                    result.push({startDate: formatDate(event.start), endDate: formatDateEnd(event.end), summary: event.summary, attendees: event.description});
                 }
                 else{
-                    result.push({startDate: formatDate(event.start), endDate: formatDate(event.end), summary: event.summary});
+                    result.push({startDate: formatDate(event.start), endDate: formatDate(event.end), summary: event.summary, attendees: event.description});
                 }
             }
         });

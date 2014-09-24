@@ -16,6 +16,7 @@ widget = {
                 var eventDiv = $("<div/>").addClass('leave-event');
                 $(eventDiv).append($("<div/>").addClass('leave-dates').append(event.startDate + " - " + event.endDate));
                 $(eventDiv).append($("<div/>").addClass('leave-summary').append(event.summary));
+                $(eventDiv).append($("<div/>").addClass('leave-attendees').append(event.attendees));
 
                 $('.content', el).append(eventDiv);
             });

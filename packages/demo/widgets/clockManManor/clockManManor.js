@@ -10,9 +10,7 @@ widget = {
 				var colon = '<span class="' + colonClass + '">:</span>';
 				$('.content', el).html(
 						'<div class="clock-time">' + data.hour + colon + data.minutes + '</div>'
-								+ '<div class="clock-date">' + data.oxonDate +'<br>'
-								+ data.dateStr 
-								+ '</div>'
+								+ '<div class="clock-date">' + data.oxonDate +'<br></div>'
 				);	
 			}
 		}

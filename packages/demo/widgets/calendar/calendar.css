@@ -1,4 +1,4 @@
-.leave-dates, .leave-summary {
+.leave-dates, .leave-summary, .leave-attendees {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -6,13 +6,25 @@
 }
 
 .leave-dates {
-    width: 40%;
+    width: 30%;
 }
 
 .leave-summary {
-    width: 60%;
+    width: 40%;
 }
 
 .leave-event {
     font-size: 30px;
+}
+
+.leave-attendees {
+	width: 30%;
+    font-size: 30px;
+}
+
+.featured-image {
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
