@@ -29,7 +29,7 @@
     "calendar" : {
        "interval" : 60000,
        "calendarUrl" : "https://www.google.com/calendar/ical/manmanoroxford%40gmail.com/private-4a70c4f939a1f673098b5b6921572cd4/basic.ics",
-       "maxEntries" : 9,
+       "maxEntries" : 18,
        "widgetTitle" : "Events"
      },
      "owedTom" : {
