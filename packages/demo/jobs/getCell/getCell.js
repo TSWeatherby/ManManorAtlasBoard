@@ -15,7 +15,7 @@ module.exports = function(config, dependencies, job_callback) {
                     var out = out.toString();
                     var blah = 3.14;
                     blah = parseFloat(out);
-                    blah = math.round(blah,2);
+                    blah = blah.toFixed(2);
                     job_callback(null, {returnValue: blah, title: config.widgetTitle});
                 });
             });
